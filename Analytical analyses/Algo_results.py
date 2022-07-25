@@ -17,7 +17,7 @@ rects3 = ax.bar(x + width, hour_18, width, label='2 hour before')
 
 
 ax.set_ylabel('Auc roc')
-ax.set_title('Algorithms results for each data set')
+ax.set_title('Algorithms results')
 ax.set_xticks(x)
 ax.set_xticklabels(labels)
 ax.legend()

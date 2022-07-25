@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 # Pie chart, where the slices will be ordered and plotted counter-clockwise:
 labels = 'Shock septic in first 20 hours\n(deleted)', 'shock septic after 20 hours','people without shock septic'
-sizes = [1672, 822, 619]
+sizes = [1672, 822, 620]
 explode = (0, 0, 0)  # only "explode" the 2nd slice (i.e. 'Hogs')
 
 def func(pct, allvalues):
@@ -13,7 +13,7 @@ fig1, ax1 = plt.subplots()
 
 ax1.pie(sizes, explode=explode, labels=labels,  autopct=lambda pct: func(pct, sizes),
         shadow=True, startangle=90)
-ax1.set(title ="Total people 2011-2017")
+ax1.set(title ="Total people 2011-2017\n(3113)")
 ax1.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
 
 plt.show()
