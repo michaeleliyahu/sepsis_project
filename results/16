@@ -1,0 +1,95 @@
+"C:\Users\Michael Eliyahu\AppData\Local\Programs\Python\Python38\python.exe" "C:/Users/Michael Eliyahu/Downloads/project sepsis/ML Algorithm/Algorithm2.py"
+Logistic Regression Accuracy: 63.43 %
+Logistic Regression Auc roc: 0.591 %
+Recall: 0.817 %
+Classification repot:
+              precision    recall  f1-score   support
+
+           0       0.58      0.37      0.45       175
+           1       0.65      0.82      0.73       257
+
+    accuracy                           0.63       432
+   macro avg       0.62      0.59      0.59       432
+weighted avg       0.62      0.63      0.61       432
+
+Confusion matrix:
+[[ 64 111]
+ [ 47 210]]
+[ 0.69277797 -0.38785991 -0.40725634 -0.46612592  0.37261308 -0.13120902
+ -0.08780139  0.03679266 -0.10535009  0.24370281  0.38799611 -0.04709533
+ -0.14776423 -0.45115532 -0.32320536 -0.2369234  -0.6090537 ]
+----------------------------------------------------------------------
+Desicion tree Accuracy: 54.63 %
+Decision Tree Auc roc: 0.533 %
+Classfification Report:
+              precision    recall  f1-score   support
+
+           0       0.44      0.46      0.45       175
+           1       0.62      0.60      0.61       257
+
+    accuracy                           0.55       432
+   macro avg       0.53      0.53      0.53       432
+weighted avg       0.55      0.55      0.55       432
+
+Confusion matrix:
+[[ 81  94]
+ [102 155]]
+[0.1588012  0.03223086 0.07485133 0.0342733  0.02482713 0.03661909
+ 0.03219408 0.05951228 0.04556124 0.05467725 0.06867876 0.04849072
+ 0.02734942 0.02607848 0.10021815 0.0565851  0.11905161]
+----------------------------------------------------------------------
+Random forest Accuracy:  65.51 %
+Random Forest Auc roc: 0.633 %
+Classfification Report:
+              precision    recall  f1-score   support
+
+           0       0.58      0.51      0.55       175
+           1       0.69      0.75      0.72       257
+
+    accuracy                           0.66       432
+   macro avg       0.64      0.63      0.63       432
+weighted avg       0.65      0.66      0.65       432
+
+Confusion matrix:
+[[ 90  85]
+ [ 64 193]]
+-20    0.104886
+-19    0.056861
+-18    0.060142
+-17    0.058947
+-16    0.047258
+-15    0.050969
+-14    0.048168
+-13    0.050871
+-12    0.050678
+-11    0.048490
+-10    0.054685
+-9     0.048419
+-8     0.052725
+-7     0.055903
+-6     0.072728
+-5     0.068279
+-4     0.069992
+dtype: float64
+----------------------------------------------------------------------
+C:\Users\Michael Eliyahu\AppData\Local\Programs\Python\Python38\lib\site-packages\xgboost\sklearn.py:1146: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
+  warnings.warn(label_encoder_deprecation_msg, UserWarning)
+[13:29:26] WARNING: C:/Users/Administrator/workspace/xgboost-win64_release_1.4.0/src/learner.cc:1095: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+XGboost Accuracy: 65.050 %
+XGboost Auc roc: 0.638 %
+Classfification Report:
+              precision    recall  f1-score   support
+
+           0       0.57      0.57      0.57       175
+           1       0.71      0.70      0.71       257
+
+    accuracy                           0.65       432
+   macro avg       0.64      0.64      0.64       432
+weighted avg       0.65      0.65      0.65       432
+
+Confusion matrix:
+[[100  75]
+ [ 76 181]]
+{-20: 0.6159939038929441, -19: 0.6060671009732365, -18: 0.6028810450121656, -17: 0.5926471021897812, -16: 0.605147562043796, -15: 0.6024221326034062, -14: 0.5975906678832118, -13: 0.6016994695863758, -12: 0.593519126520681, -11: 0.5956756897810216, -10: 0.5966340644768864, -9: 0.5938322810218981, -8: 0.5851149975669103, -7: 0.5686328953771296, -6: 0.5685431618004868, -5: 0.5635549294403891, -4: 0.5625010717761557, -3: 0.5377915900243306, -2: 0.5301938990267645, -1: 0.5255828953771281}
+
+Process finished with exit code 0

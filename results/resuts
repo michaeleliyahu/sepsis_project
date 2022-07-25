@@ -1,0 +1,41 @@
+-8
+Logistic Regression Accuracy: 64.35 %
+Logistic Regression Auc roc: 0.596 %
+Recall: 0.848 %
+
+Desicion tree Accuracy: 57.87 %
+Decision Tree Auc roc: 0.569 %
+
+Random forest Accuracy:  64.12 %
+Random Forest Auc roc: 0.615 %
+
+XGboost Accuracy: 60.190 %
+XGboost Auc roc: 0.58
+
+-5
+Logistic Regression Accuracy: 64.35 %
+Logistic Regression Auc roc: 0.599 %
+Recall: 0.833 %
+
+Desicion tree Accuracy: 60.88 %
+Decision Tree Auc roc: 0.598 %
+
+Random forest Accuracy:  65.05 %
+Random Forest Auc roc: 0.630 %
+
+XGboost Accuracy: 64.580 %
+XGboost Auc roc: 0.624 %
+
+-2
+Logistic Regression Accuracy: 66.2 %
+Logistic Regression Auc roc: 0.624 %
+Recall: 0.825 %
+
+Desicion tree Accuracy: 61.11 %
+Decision Tree Auc roc: 0.602 %
+
+Random forest Accuracy:  66.90 %
+Random Forest Auc roc: 0.642 %
+
+XGboost Accuracy: 63.660 %
+XGboost Auc roc: 0.615 %

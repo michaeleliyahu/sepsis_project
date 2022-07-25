@@ -21,6 +21,7 @@ dataset = pd.read_csv('CVRI_model.csv')
 dataset.head()
 
 x = dataset[['-20', '-19', '-18', '-17', '-16', '-15', '-14', '-13', '-12', '-11', '-10', '-9', '-8']]
+# x = dataset[['-20', '-19', '-18', '-17', '-16', '-15', '-14', '-13', '-12', '-11', '-10', '-9', '-8', '-7', '-6', '-5', '-4', '-3', '-2']]
 y = dataset['event']
 
 # Spliting data into training and testing data
